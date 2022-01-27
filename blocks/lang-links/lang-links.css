@@ -1,4 +1,6 @@
 .lang-links{
+  display: flex;
+  justify-content: center;
   margin-top: 46px;
   margin-right: 48px;
 }
