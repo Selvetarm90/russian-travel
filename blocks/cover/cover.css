@@ -1,0 +1,8 @@
+.cover{
+  max-width: calc((1184/1280)*100vw);
+  height: calc((740/1280)*100vw);
+  margin: auto;
+  background-image: url(../../vendor/images/__backgroundtrains.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

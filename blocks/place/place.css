@@ -1,0 +1,9 @@
+.place{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 984px;
+    margin: 0 auto 80px;
+}
+.place:last-child{
+    margin-bottom: 91px;
+}
