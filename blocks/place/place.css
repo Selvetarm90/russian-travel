@@ -7,3 +7,9 @@
 .place:last-child{
     margin-bottom: 0;
 }
+@media (max-width: 1024px) {
+  .place{
+    width: 928px;
+  }
+
+}

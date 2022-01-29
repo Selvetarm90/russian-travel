@@ -2,6 +2,8 @@
   font-size: 18px;
   line-height: 22px;
   color: #fff;
+  width: 456px;
+
 }
 .website__link:hover{
   opacity: 0.8;
