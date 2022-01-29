@@ -5,5 +5,13 @@
   display: block;
   margin: auto;
   width: calc((938/984)*100%);
-  
+}
+@media (max-width: 1024px) {
+  .lead__image-route{
+    width: calc((884/928)*100%);
+    height: calc((249/580)*100%);
+    top: calc((85/1024)*100vw);
+    left: calc((22/1024)*100vw);
+  }
+
 }

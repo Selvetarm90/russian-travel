@@ -1,7 +1,15 @@
 .photo-grid{
-  margin: 92px auto;
-  max-width: 1184px;
+  margin: 92px 48px;
+  width: calc((1184/1280)*100vw);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
+}
+@media (max-width: 1024px) {
+  .photo-grid{
+    width: calc((928/1024)*100vw);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
 }

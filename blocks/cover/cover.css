@@ -1,8 +1,13 @@
 .cover{
   max-width: calc((1184/1280)*100vw);
   height: calc((740/1280)*100vw);
-  margin: auto;
+  margin: 92px auto;
   background-image: url(../../vendor/images/__backgroundtrains.jpg);
   background-size: contain;
   background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

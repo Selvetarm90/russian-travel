@@ -2,3 +2,8 @@
   padding-top: 56px;
   padding-bottom: 92px;
 }
+@media (max-width: 1024px) {
+  .lead{
+    padding-top: 48px;
+  }
+}

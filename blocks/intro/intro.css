@@ -3,3 +3,11 @@
     height: 429px;
     padding-left: 148px;
 }
+@media (max-width: 1024px) {
+  .intro{
+    padding-left: 48px;
+
+  }
+
+
+}
