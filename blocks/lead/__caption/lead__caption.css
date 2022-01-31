@@ -20,3 +20,8 @@
     width: calc((720/768)*100vw);
   }
 }
+@media (max-width: 425px) {
+  .lead__caption{
+    width: calc((288/320)*100vw);
+  }
+}

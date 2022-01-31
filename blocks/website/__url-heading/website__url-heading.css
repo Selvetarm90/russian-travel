@@ -10,7 +10,13 @@
   line-height: 170%;
 }
 @media (max-width: 768px) {
-  .website__url-heading:first-child{
+  .website__url-heading{
     line-height: 12px;
+  }
+}
+@media (max-width: 425px) {
+  .website__url-heading{
+    width: 100%;
+
   }
 }

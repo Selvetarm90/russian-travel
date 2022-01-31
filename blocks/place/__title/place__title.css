@@ -37,3 +37,10 @@
     line-height: 35px;
   }
 }
+@media (max-width: 425px) {
+  .place__title{
+    width: calc((288/320)*100vw);
+    margin: 0 auto 32px;
+    padding: 0;
+  }
+}

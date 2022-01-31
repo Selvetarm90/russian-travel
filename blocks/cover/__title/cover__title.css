@@ -7,10 +7,25 @@
   text-align: center;
   z-index: 1;
 }
+@media (max-width: 680px) {
+  .cover__title{
+    font-size: 62px;
+    line-height: 66px;
+  }
+}
 @media (max-width: 580px) {
   .cover__title{
     font-size: 52px;
-    line-height: 56px; 
-    width: 90%
+    line-height: 56px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 425px) {
+  .cover__title{
+    width: calc((288/320)*100vw);
+    font-size: 32px;
+    line-height: 35px;
+
   }
 }

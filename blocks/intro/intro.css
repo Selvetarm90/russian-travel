@@ -15,3 +15,8 @@
     margin: auto;
   }
 }
+@media (max-width: 425px) {
+  .intro{
+    width: calc((288/320)*100vw);
+  }
+}

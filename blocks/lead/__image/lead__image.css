@@ -2,10 +2,9 @@
     position: relative;
     width: calc((984/1280)*100vw);
     height: calc((615/1280)*100vw);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../../vendor/images-sprint-3/lead-polka.jpg);
     margin: auto;
-    background-image: url(../../../vendor/images/kalegin-michail-179870-unsplash.png);
 }
 @media (max-width: 1024px) {
   .lead__image{

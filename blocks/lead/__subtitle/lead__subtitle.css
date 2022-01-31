@@ -10,10 +10,22 @@
     margin-bottom: 56px;
   }
 }
+@media (max-width: 650px) {
+  .lead__subtitle{
+    width: 90%;
+  }
+}
 @media (max-width: 580px){
   .lead__subtitle{
     font-size: 20px;
     line-height: 26px;
-    width: 90%
+  }
+}
+@media (max-width: 425px) {
+  .lead__subtitle{
+    width: calc((288/320)*100vw);
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }
