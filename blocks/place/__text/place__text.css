@@ -1,0 +1,15 @@
+.place__text{
+  width: calc((484/1280)*100vw);
+  align-self: flex-start;
+}
+@media (max-width: 1024px) {
+  .place__text{
+    width: calc((456/1024)*100vw);
+  }
+}
+@media (max-width: 768px) {
+  .place__text{
+    width: calc((352/768)*100vw);
+  }
+}
+

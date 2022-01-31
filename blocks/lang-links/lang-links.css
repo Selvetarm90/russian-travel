@@ -1,7 +1,5 @@
 .lang-links{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 46px;
-  margin-right: 48px;
+ align-self: flex-end;
+ display: flex;
+ padding-bottom: 4px;
 }

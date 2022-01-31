@@ -1,5 +1,9 @@
 .website{
-  align-self: flex-end;
-  width: 456px;
+  width: calc((456/1280)*100vw);
   margin-bottom: 48px;
+}
+@media (max-width: 768px) {
+  .website{
+    width: calc((352/768)*100vw);
+  }
 }

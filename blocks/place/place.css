@@ -1,15 +1,23 @@
 .place{
     display: flex;
     flex-wrap: wrap;
-    max-width: 984px;
+    align-items: flex-end;
+    width: calc((984/1280)*100vw);
     margin: 0 auto 80px;
+
 }
 .place:last-child{
     margin-bottom: 0;
 }
 @media (max-width: 1024px) {
   .place{
-    width: 928px;
+    width: calc((928/1024)*100vw);
   }
 
+}
+@media (max-width: 768px) {
+  .place{
+    margin-bottom: 71px;
+    width: calc((720/768)*100vw);
+  }
 }

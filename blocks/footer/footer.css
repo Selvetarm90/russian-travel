@@ -11,3 +11,8 @@
     width: calc((928/1024)*100vw);
   }
 }
+@media (max-width: 768px) {
+  .footer{
+    width: calc((720/768)*100vw);
+  }
+}

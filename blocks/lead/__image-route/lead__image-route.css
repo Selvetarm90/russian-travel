@@ -15,3 +15,11 @@
   }
 
 }
+@media (max-width: 768px) {
+  .lead__image-route{
+    width: calc((732/768)*100%);
+    height: calc((206/480)*100%);
+    top: calc((70/768)*100vw);
+    left:calc((18/768)*100vw);
+  }
+}

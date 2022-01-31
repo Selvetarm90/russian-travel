@@ -1,9 +1,16 @@
 .website__url-heading{
   margin: 0;
-
   margin-bottom: 12px;
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
   color: #aaa
+}
+.website__url-heading:not(:first-child){
+  line-height: 170%;
+}
+@media (max-width: 768px) {
+  .website__url-heading:first-child{
+    line-height: 12px;
+  }
 }

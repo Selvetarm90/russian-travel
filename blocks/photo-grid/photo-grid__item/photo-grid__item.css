@@ -2,10 +2,16 @@
   width: calc((284/1280)*100vw);
   height: calc((213/1280)*100vw);
 }
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .photo-grid__item{
     width: calc((300/1024)*100vw);
     height: calc((225/1024)*100vw);
 
+  }
+}
+@media (max-width: 768px) {
+  .photo-grid__item{
+    width: calc((352/768)*100vw);
+    height: calc((264/768)*100vw);
   }
 }

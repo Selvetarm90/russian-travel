@@ -17,3 +17,8 @@
     height: calc((640/1024)*100vw);
   }
 }
+@media (max-width: 768px) {
+  .cover{
+    margin: 90px auto 88px;
+  }
+}

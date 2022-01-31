@@ -1,15 +1,33 @@
 .place__title{
-  width: 460px;
+  width: calc((460/1280)*100vw);
   margin: 0;
-  margin-right: 40px;
+  margin-right: calc((40/1280)*100vw);
   margin-bottom: 48px;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
+
 }
 @media (max-width: 1024px) {
   .place__title{
-    width: 440px;
-    margin-right: 32px;
+    width: calc((440/1024)*100vw);
+    margin-right: calc((32/1024)*100vw);
+  }
+}
+@media (max-width: 875px) {
+  .place__title{
+    font-size: 62px;
+    line-height: 66px;
+  }
+}
+@media (max-width: 768px) {
+  .place__title{
+    width: calc((340/768)*100vw);
+    font-size: 42px;
+    line-height: 46px;
+    margin-right: calc((28/768)*100vw);
+    box-sizing: border-box;
+    padding-right: 10px;
+
   }
 }
