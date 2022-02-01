@@ -11,6 +11,22 @@
   align-items: center;
   justify-content: center;
 }
+.cover:before{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  
+}
+.cover:hover:before{
+  opacity: .8;
+  transition: .3;
+}
 @media (max-width: 1024px) {
   .cover{
     width: 100%;
