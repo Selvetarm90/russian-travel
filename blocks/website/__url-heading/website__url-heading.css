@@ -4,7 +4,7 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
-  color: #aaa
+  color: #aaa;
 }
 .website__url-heading:not(:first-child){
   line-height: 170%;
