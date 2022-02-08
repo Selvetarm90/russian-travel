@@ -11,10 +11,10 @@
     <header class="header">
       <div class="header__logo">
       </div>
-      <div class="lang-links">
-        <a href="#" class="lang-links__lang-link lang-links__lang-link_selected">Ru</a>
-        <a href="#" class="lang-links__lang-link">En</a>
-      </div>
+      <ul class="lang-links">
+        <li class="lang-links__list"><a href="#" class="lang-links__lang-link lang-links__lang-link_selected">Ru</a></li>
+          <li class="lang-links__list"><a href="#" class="lang-links__lang-link">En</a></li>
+      </ul>
 
     </header>
     <main class="content">
@@ -56,7 +56,7 @@
         <img src="./vendor/images-sprint-3/photo-grid-ergaki.jpg" class="photo-grid__item" alt="Туман в горах">
       </section>
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h3 class="place__title">Куршская коса</h3>
           <div class="website">
             <p class="website__url-heading">url</p>
@@ -72,8 +72,8 @@
                наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная
                в спокойствие природы и запах стального, прохладного моря.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h3 class="place__title">Кольский</h3>
           <div class="website">
             <p class="website__url-heading">url</p>
@@ -88,8 +88,8 @@
                пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное
                сияние начинает сбываться с билетомв Мурманск.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h3 class="place__title">Алтай</h3>
           <div class="website">
             <p class="website__url-heading">url</p>
@@ -104,8 +104,8 @@
                флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже
                обитатели Алтайского края.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h3 class="place__title">Зимний Байкал</h3>
           <div class="website">
             <p class="website__url-heading">url</p>
@@ -119,8 +119,8 @@
                Это такой вид спорта, когда лыжник привязывает себя к мотоциклу, и тандем старается развить как можно бóльшую скорость
                на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h3 class="place__title">Карелия</h3>
           <div class="website">
             <p class="website__url-heading">url</p>
@@ -134,7 +134,7 @@
                раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
                в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section>
@@ -145,12 +145,15 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__list"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__list"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
       </nav>
       <p class="footer__copyright">&copy;&nbsp;2022.&nbsp;Aleksey Paramonov</p>
     </footer>
