@@ -1,10 +1,15 @@
 .lead__image{
-    position: relative;
-    width: calc((984/1280)*100vw);
-    height: calc((615/1280)*100vw);
-    background-size: cover;
-    background-image: url(../../../vendor/images-sprint-3/lead-polka.jpg);
-    margin: auto;
+  display: block;
+  width: calc((984/1280)*100vw);
+  height: calc((615/1280)*100vw);
+  margin: auto;
+}
+@media (min-width: 1360px) {
+  .lead__image{
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 @media (max-width: 1024px) {
   .lead__image{
@@ -15,7 +20,7 @@
 
 @media (max-width: 768px) {
   .lead__image{
-  width: 100%;
-  height: calc((480/768)*100vw);
+    width: 100%;
+    height: calc((480/768)*100vw);
   }
 }

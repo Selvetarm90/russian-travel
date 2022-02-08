@@ -6,6 +6,11 @@
   margin: auto;
   padding-bottom: 24px;
 }
+@media (min-width: 1360px) {
+  .footer{
+    width: 100%;
+  }
+}
 @media (max-width: 1024px) {
   .footer{
     width: calc((928/1024)*100vw);

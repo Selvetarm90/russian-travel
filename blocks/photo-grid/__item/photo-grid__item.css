@@ -3,6 +3,14 @@
   height: calc((213/1280)*100vw);
   object-fit: contain;
 }
+@media (min-width: 1360px){
+  .photo-grid__item{
+    max-width: calc((1360px/4) - (10px*3));
+    object-fit: cover;
+  }
+}
+
+
 @media (max-width: 1024px) {
   .photo-grid__item{
     width: calc((300/1024)*100vw);

@@ -13,3 +13,9 @@
     line-height: 20px;
   }
 }
+@media (max-width: 320px) {
+  .website__link{
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

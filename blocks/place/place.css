@@ -9,6 +9,12 @@
 .place:last-child{
     margin-bottom: 0;
 }
+@media (min-width: 1360px) {
+  .place{
+    width: 100%;
+
+  }
+}
 @media (max-width: 1024px) {
   .place{
     width: calc((928/1024)*100vw);
