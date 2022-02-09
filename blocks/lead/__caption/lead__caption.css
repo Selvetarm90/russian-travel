@@ -1,6 +1,6 @@
 .lead__caption{
   display: block;
-  width: calc((984/1280)*100vw);
+  max-width: 984px;
   text-align: start;
   margin: 8px auto 0;
   font-style: normal;

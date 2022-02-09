@@ -2,19 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-    width: calc((984/1280)*100vw);
+    max-width: 984px;
     margin: 0 auto 80px;
 
 }
 .place:last-child{
     margin-bottom: 0;
 }
-@media (min-width: 1360px) {
-  .place{
-    width: 100%;
 
-  }
-}
 @media (max-width: 1024px) {
   .place{
     width: calc((928/1024)*100vw);

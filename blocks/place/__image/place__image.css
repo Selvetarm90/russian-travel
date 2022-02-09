@@ -1,17 +1,10 @@
 .place__image{
-  width: calc((460/1280)*100vw);
-  height: calc((460/1280)*100vw);
-  margin-right: calc((40/1280)*100vw);
+  max-width: 460px;
+  margin-right: 40px;
   align-self: flex-start;
 
 }
 
-@media (min-width: 1360px) {
-  .place__image{
-    width: 45%;
-    margin-right: 3%;
-  }
-}
 @media (max-width: 1024px) {
   .place__image{
     width: calc((440/1024)*100vw);

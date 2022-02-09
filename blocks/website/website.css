@@ -1,12 +1,8 @@
 .website{
-  width: calc((456/1280)*100vw);
+  max-width: 456px;
   margin-bottom: 48px;
 }
-@media (min-width: 1360px) {
-  .website{
-    width: 50%;
-  }
-}
+
 @media (max-width: 768px) {
   .website{
     width: calc((352/768)*100vw);

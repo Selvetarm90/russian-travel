@@ -1,5 +1,5 @@
 .place__text{
-  width: calc((484/1280)*100vw);
+  max-width: 484px;
   align-self: flex-start;
 }
 @media (max-width: 1024px) {

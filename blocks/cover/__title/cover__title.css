@@ -1,5 +1,7 @@
 .cover__title{
-  margin: 0;
+  margin: auto;
+  position: relative;
+  top: calc(50% - 125px);
   width: 560px;
   font-weight: 900;
   font-size: 72px;
@@ -27,6 +29,7 @@
     width: calc((288/320)*100vw);
     font-size: 32px;
     line-height: 35px;
+    top: calc(50% - 67px);
 
   }
 }
