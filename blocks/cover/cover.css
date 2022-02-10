@@ -1,5 +1,6 @@
 .cover{
   position: relative;
+  display: flex;
   max-width: 1184px;
   min-height: 740px;
   margin: 92px auto;
@@ -22,6 +23,11 @@
 .cover:hover:before{
   opacity: .8;
   transition: .3;
+}
+@media (max-width: 1220px) {
+  .cover{
+    width: 95%;
+  }
 }
 @media (max-width: 1024px) {
   .cover{

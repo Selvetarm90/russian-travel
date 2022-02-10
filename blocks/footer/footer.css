@@ -6,6 +6,11 @@
   margin: auto;
   padding-bottom: 24px;
 }
+@media (max-width: 1220px) {
+  .footer{
+    width: 95%;
+  }
+}
 
 @media (max-width: 1024px) {
   .footer{

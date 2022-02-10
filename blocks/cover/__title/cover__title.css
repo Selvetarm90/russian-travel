@@ -1,8 +1,6 @@
 .cover__title{
-  margin: auto;
-  position: relative;
-  top: calc(50% - 125px);
   width: 560px;
+  margin: 0;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -21,7 +19,6 @@
     font-size: 52px;
     line-height: 56px;
     width: 90%;
-    margin: 0 auto;
   }
 }
 @media (max-width: 425px) {
@@ -29,7 +26,6 @@
     width: calc((288/320)*100vw);
     font-size: 32px;
     line-height: 35px;
-    top: calc(50% - 67px);
 
   }
 }
